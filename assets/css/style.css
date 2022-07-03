@@ -4,7 +4,7 @@
 # General
 
 --------------------------------------------------------------*/
-body {
+#EB4747y {
   font-family: "Open Sans", sans-serif;
   color: hsl(90, 3%, 16%);
   background: #D7E9F7;
@@ -428,7 +428,7 @@ section {
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 2px;
   margin-bottom: 20px;
   color: #050d18;
 }
@@ -1078,3 +1078,50 @@ section {
   }
 }
 
+.summary-box{
+  background-color: #FFC4C4;
+  border-radius: 4px;
+}
+
+#hobbies-box
+{
+  text-align: center;
+}
+.hobbies
+{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+#about{
+  background-color: #FFC4C4;
+  border-radius: 4px;
+}
+
+
+@media screen and (max-width: 690px) {
+  #hobbies-box{
+    display: flex;
+    background-color: #ABC9FF;
+  }
+  .hobbies {
+    flex-direction: column;
+  }
+  .hoby_count{
+    background-color: #B8F1B0;
+  border-radius: 4px;
+  padding: auto 50px auto 50px;
+  margin:11px  10px 11px 10px;
+
+
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  #hobbies-box {
+    background-color: #ABC9FF;
+
+  }
+}
